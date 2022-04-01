@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funiro</title>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- styles -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__left">
+          <a href="#" class="header__logo">Funiro.</a>
+          <div class="header__item-dropdown">
+            <div class="header__dropdown-title">Products</div>
+            <ul class="header__dropdown-list">
+              <li><a href="#">Product one</a></li>
+              <li><a href="#">Product two</a></li>
+              <li><a href="#">Product three</a></li>
+              <li><a href="#">Product four</a></li>
+              <li><a href="#">Product five</a></li>
+            </ul>
+          </div>
+          <div class="header__item-dropdown">
+            <div class="header__dropdown-title">Rooms</div>
+            <ul class="header__dropdown-list">
+              <li><a href="#">Room one</a></li>
+              <li><a href="#">Room two</a></li>
+              <li><a href="#">Room three</a></li>
+              <li><a href="#">Room four</a></li>
+              <li><a href="#">Room five</a></li>
+            </ul>
+          </div>
+          <a href="#" class="header__item-link">Inspirations</a>
+          <div class="header__item-search">
+            <button><img src="img/svg/search.svg" alt="search"></button>
+            <input type="text" placeholder="Search for minimalist chair">
+          </div>
+        </div>
+        <div class="header__right">
+          <a href="#" class="header__heart"><img src="img/svg/heart.svg" alt="heart"></a>
+          <a href="#" class="header__cart"><img src="img/svg/cart.svg" alt="cart"></a>
+          <a href="#" class="header__user"><img src="img/user-logo.png" alt="user-logo"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- intro -->
+  <section class="intro">
+    <div class="container">
+      <div class="intro__wrapper">
+        <h1 class="intro__title">High-Quality Furniture Just For You</h1>
+        <div class="intro__desc">Our furniture is made from selected and best quality materials that are suitable for your dream home</div>
+        <a href="#" class="intro__btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="intro__slider">
+      <div class="container intro__slider-controller">
+        <div class="intro__slider-pagination"></div>
+        <div class="intro__slider-buttons">
+          <div class="intro__slider-button-prev"><img src="img/svg/slider-arrow-left.svg" alt="prev"></div>
+          <div class="intro__slider-button-next"><img src="img/svg/slider-arrow-right.svg" alt="next"></div>
+        </div>
+      </div>
+      <div class="swiper-wrapper intro__slider-wrapper">
+        <div class="swiper-slide intro__slider-slide">
+          <img src="img/intro-slider/1.jpg" alt="1">
+          <div class="intro__slide-desc">
+            <div class="intro__slide-title">Bohauss</div>
+            <div class="intro__slide-subtitle">Luxury big sofa 2-seat</div>
+            <div class="intro__slide-wrapper">
+              <div class="intro__slide-price">Rp 17.000.000</div>
+              <a href="#" class="intro__slide-link"><img src="img/svg/arrow-right.svg" alt="arrow"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide intro__slider-slide">
+          <img src="img/intro-slider/2.jpg" alt="2">
+          <div class="intro__slide-desc hide">
+            <div class="intro__slide-title">Bohauss</div>
+            <div class="intro__slide-subtitle">Luxury big sofa 3-seat</div>
+            <div class="intro__slide-wrapper">
+              <div class="intro__slide-price">Rp 12.000.000</div>
+              <a href="#" class="intro__slide-link"><img src="img/svg/arrow-right.svg" alt="arrow"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide intro__slider-slide">
+          <img src="img/intro-slider/3.jpg" alt="3">
+          <div class="intro__slide-desc hide">
+            <div class="intro__slide-title">Bohauss</div>
+            <div class="intro__slide-subtitle">Luxury big sofa 4-seat</div>
+            <div class="intro__slide-wrapper">
+              <div class="intro__slide-price">Rp 15.000.000</div>
+              <a href="#" class="intro__slide-link"><img src="img/svg/arrow-right.svg" alt="arrow"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /intro -->
+
+  <!-- scripts -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
